@@ -2,6 +2,8 @@
 
 This filter adds a domain preview next to links in your documents, providing users with quick context on the destination without needing to hover or click.
 
+![](example.png)
+
 ## Installing
 
 
