@@ -1,0 +1,22 @@
+---
+title: "url-peek Example"
+filters:
+  - url-peek
+domain_style:
+  color: "grey"
+  font_size: "10px"
+---
+
+## Introduction
+
+This filter adds a domain preview to each link in the document.
+For example the [link to the extension](https://github.com/schochastics/quarto-url-peek) or my [personal page](https://mr.schochastics.net).
+
+You can change the style (color/font-size) in teh yaml header
+
+```yaml
+domain_style:
+  color: "grey"
+  font_size: "10px"
+```
+
