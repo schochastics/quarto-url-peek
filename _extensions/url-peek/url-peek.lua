@@ -2,6 +2,10 @@ local domain_style = {}
 
 local function extract_domain(url)
   local domain = url:match("://([^/]+)")
+
+  if domain then
+    domain = domain:gsub("^www%.", "")
+  end
   return domain
 end
 
