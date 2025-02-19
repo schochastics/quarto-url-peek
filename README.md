@@ -8,7 +8,7 @@ This filter adds a domain preview next to links in your documents, providing use
 
 
 ```bash
-quarto add schochastics/url-peek
+quarto add schochastics/quarto-url-peek
 ```
 
 This will install the extension under the `_extensions` subdirectory.
